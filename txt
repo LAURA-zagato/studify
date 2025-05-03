@@ -1,0 +1,19 @@
+mindforge/
+├── client/                # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/    # Reusable UI components
+│   │   ├── pages/         # Flashcards, Quizzes, Notes, etc.
+│   │   ├── services/      # API calls
+│   │   ├── utils/         # Timer logic, helpers
+│   │   └── App.jsx
+│   └── tailwind.config.js
+├── server/                # Node.js backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── app.js
+│   └── config.js
+├── .env
+├── package.json
+└── README.md
